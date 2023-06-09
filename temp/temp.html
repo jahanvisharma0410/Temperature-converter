@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="tempt.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="row">
+      <div class="column">
+        <label style="color: rgb(16, 6, 6);" for="celsius">Celsius:</label>
+        <input type="number" id="celsius" oninput="convertCelsius()">
+      </div>
+      <div class="column">
+        <label style="color: rgb(26, 10, 10);" for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" oninput="convertFahrenheit()">
+      </div>
+      <div class="column">
+        <label style=  "color: rgb(22, 7, 7);" for="kelvin">Kelvin:</label>
+        <input type="number" id="kelvin" oninput="convertKelvin()">
+      </div>
+    </div>
+  </div>
+
+  <script src="tempt.js"></script>
+</body>
+</html>
